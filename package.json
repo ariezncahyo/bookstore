@@ -1,0 +1,22 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "Book store build with nodejs express mongodb reactjs with more coffe",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariezncahyo/bookstore.git"
+  },
+  "keywords": [
+    "bookstore"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariezncahyo/bookstore/issues"
+  },
+  "homepage": "https://github.com/ariezncahyo/bookstore#readme"
+}
