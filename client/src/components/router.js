@@ -14,6 +14,7 @@ import {
 import Home from './home';
 import Cart from './cart';
 import Signin from './signin';
+import Register from './register';
 
 const Router = () => {
   return (
@@ -40,6 +41,7 @@ const Router = () => {
           <Route path="/" exact component={Home} />
           <Route path="/cart" exact component={Cart} />
           <Route path="/signin" exact component={Signin} />
+          <Route path="/register" exact component={Register} />
         </Switch>
       </div>
     </BrowserRouter>

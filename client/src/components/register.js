@@ -1,17 +1,20 @@
 import React, {Component} from 'react';
-import {Nav} from 'react-bootstrap';
 
-class Signin extends Component {
+class Register extends Component {
     render() {
-        return (
-            <div className="signin">
+        return(
+            <div className="register">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-4"></div>
                         <div className="col-md-4 text-center">
-                            <h3 className="title">Please Sign in</h3>
+                            <h3 className="title">Register Form</h3>
 
                             <div className="sign">
+                                <div className="form-group">
+                                    <input type="name" className="form-control" placeholder="Name"/>
+                                </div>
+
                                 <div className="form-group">
                                     <input type="email" className="form-control" placeholder="Email"/>
                                 </div>
@@ -21,7 +24,6 @@ class Signin extends Component {
                                 </div>
 
                                 <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-                                <p>Need an Account? <Nav.Link href="/register">Register</Nav.Link></p>
                             </div>
                         </div>
                         <div className="col-md-4"></div>
@@ -32,4 +34,4 @@ class Signin extends Component {
     }
 }
 
-export default Signin;
+export default Register;
